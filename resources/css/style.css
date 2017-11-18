@@ -61,19 +61,15 @@ nav {
   color: white;
 }
 
+ul.list {
+  display: flex;
+}
+
 .condensed { /* NOTE: This is the call to the navigation item for "menu" which will only appear on small screens, so the default is no display.*/
   display: none;
 }
 
-nav ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.75rem 0;
-}
-
-@media only screen and (max-width: 1024px) {
-  body {
-    font-size: 16px;
-  }
+.producttype {
+    margin: 0.75rem auto; /* NOTE: This handles the spacing between the menu items */
+    color: white;
 }
