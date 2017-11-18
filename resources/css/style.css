@@ -128,3 +128,20 @@ footer {
   padding: 5rem 0;
   margin-top: 4rem;
 }
+
+@media only screen and (max-width: 1024px) {
+  .product {
+    width: 47%;
+  }
+  body {
+    font-size: 16px;
+  }
+  .condensed {
+    display: block;
+    text-align: center;
+    padding: 0.75rem 0;
+  }
+  ul.list {
+    display: none;
+  }
+}
