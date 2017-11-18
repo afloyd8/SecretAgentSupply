@@ -104,3 +104,20 @@ ul.list {
 img {
   max-width: 8rem;
 }
+
+.business {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 0 0;
+}
+
+.info {
+  width: 35%;
+}
+
+.info .title {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+}
