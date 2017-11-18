@@ -73,3 +73,34 @@ ul.list {
     margin: 0.75rem auto; /* NOTE: This handles the spacing between the menu items */
     color: white;
 }
+
+.merchandise { /* NOTE: This is moving the three gallery pictures down by 3rem */
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 0 0;
+}
+
+.product {
+  width: 30%;
+  border: 4px solid black;
+}
+
+.productimage {
+  padding: 2em 0;
+  height: 9em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+img {
+  max-width: 8rem;
+}
