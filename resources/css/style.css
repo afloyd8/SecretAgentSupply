@@ -133,6 +133,9 @@ footer {
   .product {
     width: 47%;
   }
+  .glasses {
+    display: none;
+  }
   body {
     font-size: 16px;
   }
