@@ -33,7 +33,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 25em;
+  height: 25rem;
 }
 
 .headline {
@@ -146,5 +146,42 @@ footer {
   }
   ul.list {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .product {
+    width: 90%;
+  }
+  .glasses {
+    display: none;
+  }
+  .watch {
+    display: none;
+  }
+  footer {
+    text-align: center;
+  }
+  .headline h4 {
+    font-size: 0.77rem;
+  }
+  .headline h1 {
+    font-size: 1rem;
+  }
+  main {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 15rem;
+  }
+  .business {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .info {
+    width: 90%;
+    margin-top: 0.5rem;
   }
 }
