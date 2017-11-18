@@ -1,0 +1,79 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: Helvetica;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+header .container {
+  display: flex;
+  align-items: center; /* NOTE: This centers the text within the header vertically */
+  padding: 0.66rem 0 0.66rem 0.5rem; /* NOTE: This is the padding around the text in the header according to the redline */
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto; /* NOTE: I don't know why, but this line will move the entire container a third of the way across the screen. */
+}
+
+header span {
+  padding-left: 1rem; /* NOTE: Adds the spacing between the title and the logo */
+}
+
+main {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 25em;
+}
+
+.headline {
+  background-color: black;
+  color: white;
+  position: relative;
+  padding: 2rem 3rem;
+  top: 9rem;
+  width: 20rem;
+}
+
+.headline h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 0.25rem;
+}
+
+.headline h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+nav {
+  background-color: firebrick; /* NOTE: The nav is basically the container which holds the red bar, so that's where the designation for the color goes */
+  color: white;
+}
+
+.condensed { /* NOTE: This is the call to the navigation item for "menu" which will only appear on small screens, so the default is no display.*/
+  display: none;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+}
